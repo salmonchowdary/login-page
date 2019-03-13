@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8FDDA0E-8EA6-4EE6-8478-3AEE7A3705F5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Angular2SampleDemo</RootNamespace>
+    <AssemblyName>Angular2SampleDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\img5.jpg" />
+    <Content Include="Images\nike.jpg" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="node_modules\bootstrap\dist\js\npm.js" />
+    <Content Include="node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="node_modules\bootstrap\Gruntfile.js" />
+    <Content Include="node_modules\bootstrap\grunt\browsers.js" />
+    <Content Include="node_modules\bootstrap\grunt\bs-commonjs-generator.js" />
+    <Content Include="node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" />
+    <Content Include="node_modules\bootstrap\grunt\bs-lessdoc-parser.js" />
+    <Content Include="node_modules\bootstrap\grunt\bs-raw-files-generator.js" />
+    <Content Include="node_modules\bootstrap\grunt\change-version.js" />
+    <Content Include="node_modules\bootstrap\grunt\generate-sri.js" />
+    <Content Include="node_modules\bootstrap\grunt\karma.conf.js" />
+    <Content Include="node_modules\bootstrap\js\affix.js" />
+    <Content Include="node_modules\bootstrap\js\alert.js" />
+    <Content Include="node_modules\bootstrap\js\button.js" />
+    <Content Include="node_modules\bootstrap\js\carousel.js" />
+    <Content Include="node_modules\bootstrap\js\collapse.js" />
+    <Content Include="node_modules\bootstrap\js\dropdown.js" />
+    <Content Include="node_modules\bootstrap\js\modal.js" />
+    <Content Include="node_modules\bootstrap\js\popover.js" />
+    <Content Include="node_modules\bootstrap\js\scrollspy.js" />
+    <Content Include="node_modules\bootstrap\js\tab.js" />
+    <Content Include="node_modules\bootstrap\js\tooltip.js" />
+    <Content Include="node_modules\bootstrap\js\transition.js" />
+    <Content Include="packages.config" />
+    <Content Include="bs-config.json" />
+    <Content Include="package.json" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\DashBoard\dashboard.component.html" />
+    <Content Include="src\app\Images\1.jpg" />
+    <Content Include="src\app\Images\2.jpg" />
+    <Content Include="src\app\Images\3.jpg" />
+    <Content Include="src\app\Images\4.jpg" />
+    <Content Include="src\app\Images\5.jpg" />
+    <Content Include="src\app\Login\images\avatar.png" />
+    <Content Include="src\app\Login\images\pic1.jpg" />
+    <Content Include="src\app\Login\images\style.css" />
+    <Content Include="src\app\Login\login.component.css" />
+    <Content Include="src\app\Login\login.component.html" />
+    <Content Include="src\app\Login\style.css" />
+    <Content Include="src\app\Logout\logout.component.html" />
+    <Content Include="src\tsconfig.json" />
+    <Content Include="tslint.json" />
+    <Content Include="node_modules\bootstrap\CHANGELOG.md" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="node_modules\bootstrap\grunt\.jshintrc" />
+    <Content Include="node_modules\bootstrap\grunt\.stylelintrc" />
+    <Content Include="node_modules\bootstrap\grunt\configBridge.json" />
+    <Content Include="node_modules\bootstrap\less\alerts.less" />
+    <Content Include="node_modules\bootstrap\less\badges.less" />
+    <Content Include="node_modules\bootstrap\less\bootstrap.less" />
+    <Content Include="node_modules\bootstrap\less\breadcrumbs.less" />
+    <Content Include="node_modules\bootstrap\less\button-groups.less" />
+    <Content Include="node_modules\bootstrap\less\buttons.less" />
+    <Content Include="node_modules\bootstrap\less\carousel.less" />
+    <Content Include="node_modules\bootstrap\less\close.less" />
+    <Content Include="node_modules\bootstrap\less\code.less" />
+    <Content Include="node_modules\bootstrap\less\component-animations.less" />
+    <Content Include="node_modules\bootstrap\less\dropdowns.less" />
+    <Content Include="node_modules\bootstrap\less\forms.less" />
+    <Content Include="node_modules\bootstrap\less\glyphicons.less" />
+    <Content Include="node_modules\bootstrap\less\grid.less" />
+    <Content Include="node_modules\bootstrap\less\input-groups.less" />
+    <Content Include="node_modules\bootstrap\less\jumbotron.less" />
+    <Content Include="node_modules\bootstrap\less\labels.less" />
+    <Content Include="node_modules\bootstrap\less\list-group.less" />
+    <Content Include="node_modules\bootstrap\less\media.less" />
+    <Content Include="node_modules\bootstrap\less\mixins.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\alerts.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\background-variant.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\border-radius.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\buttons.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\center-block.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\clearfix.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\forms.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\gradients.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\grid-framework.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\grid.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\hide-text.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\image.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\labels.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\list-group.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\nav-divider.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\nav-vertical-align.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\opacity.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\pagination.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\panels.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\progress-bar.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\reset-filter.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\reset-text.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\resize.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\responsive-visibility.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\size.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\tab-focus.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\table-row.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\text-emphasis.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\text-overflow.less" />
+    <Content Include="node_modules\bootstrap\less\mixins\vendor-prefixes.less" />
+    <Content Include="node_modules\bootstrap\less\modals.less" />
+    <Content Include="node_modules\bootstrap\less\navbar.less" />
+    <Content Include="node_modules\bootstrap\less\navs.less" />
+    <Content Include="node_modules\bootstrap\less\normalize.less" />
+    <Content Include="node_modules\bootstrap\less\pager.less" />
+    <Content Include="node_modules\bootstrap\less\pagination.less" />
+    <Content Include="node_modules\bootstrap\less\panels.less" />
+    <Content Include="node_modules\bootstrap\less\popovers.less" />
+    <Content Include="node_modules\bootstrap\less\print.less" />
+    <Content Include="node_modules\bootstrap\less\progress-bars.less" />
+    <Content Include="node_modules\bootstrap\less\responsive-embed.less" />
+    <Content Include="node_modules\bootstrap\less\responsive-utilities.less" />
+    <Content Include="node_modules\bootstrap\less\scaffolding.less" />
+    <Content Include="node_modules\bootstrap\less\tables.less" />
+    <Content Include="node_modules\bootstrap\less\theme.less" />
+    <Content Include="node_modules\bootstrap\less\thumbnails.less" />
+    <Content Include="node_modules\bootstrap\less\tooltip.less" />
+    <Content Include="node_modules\bootstrap\less\type.less" />
+    <Content Include="node_modules\bootstrap\less\utilities.less" />
+    <Content Include="node_modules\bootstrap\less\variables.less" />
+    <Content Include="node_modules\bootstrap\less\wells.less" />
+    <Content Include="node_modules\bootstrap\LICENSE" />
+    <Content Include="node_modules\bootstrap\package.json" />
+    <Content Include="node_modules\bootstrap\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\styles.css" />
+    <Content Include="src\systemjs-angular-loader.js" />
+    <Content Include="src\systemjs.config.extras.js" />
+    <Content Include="src\systemjs.config.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\DashBoard\dashboard.component.ts" />
+    <TypeScriptCompile Include="src\app\Login\login.component.ts" />
+    <TypeScriptCompile Include="src\app\Logout\logout.component.ts" />
+    <TypeScriptCompile Include="src\app\model\patient.model.ts" />
+    <TypeScriptCompile Include="src\app\model\patient.service.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51917</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51917/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
