@@ -1,0 +1,68 @@
+﻿<style>
+    .more-padding-on-right {
+        padding-right: 50px;
+    }
+  
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <table class="table pull-left">
+
+                <thead style="background-color:cornflowerblue">
+                    <tr>
+                        <th colspan="2">PATIENTS LIST</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let patient of patients">
+                        <td>
+                            <a class="col-lg-4 col-md-6 col-sm-6 col-xs-6" (click)="passvalue(patient.id)"  [routerLink]="['/Dashboard',patient.id]"  queryParamsHandling="preserve">
+                                {{patient.name}}
+                            </a>
+                        </td>
+                        <td>
+                            {{patient.age + ' Years'}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-6 col-xs-6" *ngIf="patient">
+            <table class="table table-striped">
+                <thead style="background-color:dimgrey">
+                    <tr>
+                        <th>Nage</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                        <th>Doctor</th>
+                        <th>IsNormal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            {{patient.name}}
+                        </td>
+                        <td>{{patient.age}}</td>
+                        <td>{{patient.address}}</td>
+                        <td>{{patient.doctor}}</td>
+                        <td>{{patient.isnormal}}</td>
+                    </tr>
+     
+                </tbody>
+            </table>
+        
+        <span class="pull-left">
+            <span>L</span>
+            <img class="img-circle img-responsive img-rounded" src="app/Images/{{patient.id + '.jpg'}}" style="width:300px;height:150px" />
+        </span>
+        <span class="pull-right">
+            <span>R</span>
+            <img  class="img-circle img-responsive img-rounded" src="app/Images/{{patient.id + '.jpg'}}"  style="width:300px;height:150px" />
+        </span>
+           
+    </div>
+        </div>
+</div>

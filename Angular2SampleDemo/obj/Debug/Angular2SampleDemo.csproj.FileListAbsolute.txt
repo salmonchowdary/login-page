@@ -1,0 +1,42 @@
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\csc.exe
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\System.Collections.Immutable.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\System.Reflection.Metadata.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\vbc.exe
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\VBCSCompiler.exe
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\VBCSCompiler.exe.config
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.dll.config
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.pdb
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.dll
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.pdb
+A:\Intial Project\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.csprojResolveAssemblyReference.cache
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\csc.exe
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\vbc.exe
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\VBCSCompiler.exe
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.dll.config
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\Angular2SampleDemo.pdb
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.dll
+C:\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.pdb
+C:\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.csprojAssemblyReference.cache
+C:\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.csproj.CoreCompileInputs.cache
+C:\Angular2SampleDemo\Angular2SampleDemo\obj\Debug\Angular2SampleDemo.csproj.CopyComplete
